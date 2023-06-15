@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<style>
+.form{
+            height:600px;
+            width:500px;
+            border:2px solid brown;
+            margin:auto;
+            margin-top:5%;
+            background-color:black;
+            color:white;
+            border-radius: 15%;
+            text-align:left;
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/106/276/small/geometric-black-and-gold-background-free-vector.jpg);
+    background-size:cover ;
+} 
+  </style>    
+</head>
+<body>
+    <form action="success.html">
+        <div class="form">
+            <center style="margin-top: 5%;">
+            First-Name: <br> <input  type="text" placeholder="Enter your First-Name" id="firstsname" name="firstname" required><br>
+            <br>
+            Last-Name: <br> <input type="text" placeholder="Enter your Last-Name" id="lastsname" name="lastname" required><br>
+            <br>
+            Email: <br> <input type="email" placeholder="Enter your Email" id="email" name="email" required><br>
+            <br>
+            Date of Birth:<br>  <input type="date" id="email" name="email" required><br>
+            <br>
+            Gender:<br>
+            <select name="gender" id="gender">
+                <option value="male">Select your Gender</option>
+                <option value="male">Male</option>
+                <option value="male">Female</option>
+            </select><br><br>
+            Password: <br> <input type="password" placeholder="Enter your Password" id="password" name="password" required><br>
+            <br>
+            Confirm Password: <br><input type="password" placeholder="Confirm your password" id="password" name="password" required><br>
+            <br>
+            Mobile Number: <br> <input type="text" placeholder="Enter your Mobile Number" id="mn" name="mn" required>
+            <br><br><br><br>
+            <input type="submit" value="Signup">
+            </center>
+        </div>
+        </form>
+</body>
+        </html>
